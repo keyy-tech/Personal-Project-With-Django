@@ -1,0 +1,35 @@
+{% extends "ToDoList/layout.html" %} {% block title %} Home {% endblock %}
+{%block content %}
+<div
+	class="container-fluid custom-height d-flex justify-content-center align-items-center text-bg-dark"
+>
+	<div class="row d-flex justify-content-center align-items-center">
+		<div class="col-md-12">
+			<h1 class="text-center">Welcome to To-Do List WebApp</h1>
+			<p class="text-center">
+				This is a simple To-Do List WebApp built using Django.
+			</p>
+			<p class="text-center">
+				Add, Update, Read and Delete Tasks at your own comfort
+			</p>
+			<div class="d-flex justify-content-center align-items-center">
+				<a
+					href="{% url "create_task" %}"
+					class="btn btn-outline-primary mt-3 me-3"
+					>Add Tasks
+				</a>
+				<a
+					href="{% url "read_tasks" %}"
+					class="btn mt-3 me-2 btn-outline-info"
+					>View Tasks
+				</a>
+				<a
+					href="#"
+					class="btn btn-outline-success  mt-3 ms-3"
+					>View Completed Tasks
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

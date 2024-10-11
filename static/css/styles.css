@@ -1,0 +1,49 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #1b1f3b; /* Dark navy background */
+	color: #f8f9fa; /* Light text */
+}
+
+.custom-height {
+	height: 70vh;
+}
+
+.custom-hover:hover {
+	color: #fff;
+	background-color: #17a2b8; /* Vibrant Cyan for hover */
+	border-color: #17a2b8;
+}
+
+footer {
+	background-color: #343a40; /* Dark background for footer */
+	color: #f8f9fa; /* Light text in footer */
+	height: 25vh;
+}
+
+footer a {
+	color: #f8f9fa;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #adb5bd;
+}
+
+footer p {
+	margin-bottom: 0.5rem;
+}
+
+.btn-light {
+	background-color: #f6a609; /* Bright Orange button */
+	border-color: #f6a609;
+}
+
+.btn-outline-light {
+	border-color: #17a2b8; /* Vibrant Cyan border */
+	color: #17a2b8;
+}
+
+.btn-outline-light:hover {
+	background-color: #17a2b8;
+	color: #fff;
+}
